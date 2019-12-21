@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ngeengg</string>
+    <string name="login">Login</string>
+    <string name="hallo_dunia">Hallo Dunia</string>
+    <string name="isi_konten">Isi Konten</string>
+    <string name="plus">+</string>
+    <string name="min">-</string>
+    <string name="nul">0</string>
+    <string name="tambah">Tambah</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
