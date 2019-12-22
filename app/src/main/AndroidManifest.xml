@@ -14,9 +14,9 @@
         android:usesCleartextTraffic="true">
         <activity android:name=".Activity.NotifActivity"></activity>
         <activity android:name=".Activity.JenisActivity" />
-        <activity android:name=".Activity.DetailActivity" />
-<!--        <activity android:name=".Activity.KontenActivity" />-->
-        <activity android:name=".Activity.KontenActivity">
+<!--        <activity android:name=".Activity.DetailActivity" />-->
+        <activity android:name=".Activity.KontenActivity" />
+        <activity android:name=".Activity.DetailActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

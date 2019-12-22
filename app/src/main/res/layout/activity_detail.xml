@@ -45,12 +45,12 @@
         tools:ignore="UselessParent">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/minus"
-            android:layout_width="50dp"
+            android:id="@+id/mulai"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:textSize="30sp"
-            android:text="@string/min"
+            android:text="@string/start"
             android:layout_margin="16dp"/>
 
         <TextView
@@ -59,16 +59,16 @@
             android:layout_height="wrap_content"
             android:textSize="24sp"
             android:textColor="@android:color/black"
-            android:text="@string/nul"
+            android:text="@string/date"
             android:layout_margin="16dp"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/plus"
-            android:layout_width="50dp"
+            android:id="@+id/selesai"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:textSize="30sp"
-            android:text="@string/plus"
+            android:text="@string/end"
             android:layout_margin="16dp"/>
     </LinearLayout>
 
