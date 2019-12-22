@@ -1,4 +1,4 @@
-package com.krisna.ngeengg.api
+package com.krisna.ngeengg.Api
 
 import android.app.Application
 import com.krisna.ngeengg.BuildConfig
@@ -21,7 +21,7 @@ class ApiMain : Application() {
         .build()
 
     private val retrofit = Retrofit.Builder()
-        .baseUrl("http://192.168.10.63:8000/api/")
+        .baseUrl("http://192.168.43.174:8000/api/")
         .client(client)
         .addConverterFactory(GsonConverterFactory.create())
         .build()

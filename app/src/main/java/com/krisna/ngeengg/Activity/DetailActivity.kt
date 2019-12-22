@@ -1,4 +1,4 @@
-package com.krisna.ngeengg.activity
+package com.krisna.ngeengg.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

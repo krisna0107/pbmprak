@@ -1,10 +1,9 @@
-package com.krisna.ngeengg.activity
+package com.krisna.ngeengg.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.google.android.material.tabs.TabLayout
 import com.krisna.ngeengg.R
-import com.krisna.ngeengg.adapter.NotifPagerAdapter
+import com.krisna.ngeengg.Adapter.NotifPagerAdapter
 import kotlinx.android.synthetic.main.activity_notif.*
 
 class NotifActivity : AppCompatActivity() {
