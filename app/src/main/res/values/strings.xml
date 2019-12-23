@@ -10,7 +10,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="start">Start</string>
+    <string name="start">Pilih Tanggal</string>
     <string name="end">End</string>
     <string name="date">DATE</string>
+    <string name="timeFormat">dd/MM/yyy</string>
+    <string name="mulai">Mulai</string>
 </resources>
