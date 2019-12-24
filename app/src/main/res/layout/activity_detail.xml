@@ -59,25 +59,27 @@
                 android:layout_height="wrap_content">
                 <com.google.android.material.card.MaterialCardView
                     style="@style/Widget.MaterialComponents.CardView"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/mtrl_card_spacing"
                     android:layout_marginTop="@dimen/mtrl_card_spacing"
                     android:layout_marginRight="@dimen/mtrl_card_spacing"
-                    android:minHeight="150dp">
+                    android:layout_marginBottom="@dimen/mtrl_card_spacing"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="4dp">
 
                     <!-- Card contents. -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:background="@color/colorAccent">
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textSize="18sp"
+                            android:textSize="24sp"
                             android:text="@string/mulai"
-                            android:gravity="center"
-                            android:layout_marginBottom="16dp"/>
+                            android:gravity="center"/>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -97,14 +99,42 @@
 
                 <com.google.android.material.card.MaterialCardView
                     style="@style/Widget.MaterialComponents.CardView"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/mtrl_card_spacing"
                     android:layout_marginTop="@dimen/mtrl_card_spacing"
                     android:layout_marginRight="@dimen/mtrl_card_spacing"
-                    android:minHeight="150dp">
+                    android:layout_marginBottom="@dimen/mtrl_card_spacing"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="4dp">
 
                     <!-- Card contents. -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorAccent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="24sp"
+                            android:text="@string/mulai"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="@string/mulai"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="@string/mulai"
+                            android:gravity="center"/>
+                    </LinearLayout>
 
                 </com.google.android.material.card.MaterialCardView>
             </TableRow>
