@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         login.setOnClickListener {
             apiRetrofit = ApiRetrofit().apply {
-                ApiAkun("krisnayanajavista@gmail.com", this@MainActivity, KontenActivity::class.java)
+                ApiAkun("krisnayanajavista@gmail.com", this@MainActivity, HomeActivity::class.java)
             }
         }
     }

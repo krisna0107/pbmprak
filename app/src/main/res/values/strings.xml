@@ -13,6 +13,15 @@
     <string name="start">Pilih Tanggal</string>
     <string name="end">End</string>
     <string name="date">DATE</string>
-    <string name="timeFormat">dd/MM/yyy</string>
+    <string name="timeFormat">yyyy-MM-dd</string>
+    <string name="tgl">dd</string>
+    <string name="bulan">MMMM</string>
+    <string name="tahun">yyy</string>
     <string name="mulai">Mulai</string>
+    <string name="total_harga">Total Harga</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="pajak">Pajak</string>
+    <string name="bayar">Bayar</string>
+    <string name="tersedia">Tersedia</string>
+    <string name="_0">0</string>
 </resources>

@@ -6,4 +6,6 @@
     <color name="colorAccent">#f9aa33</color>
     <color name="txtColor">#000000</color>
     <color name="canvasColor">#eeeeee</color>
+    <color name="red">#FF0000</color>
+    <color name="grey">#808080</color>
 </resources>
