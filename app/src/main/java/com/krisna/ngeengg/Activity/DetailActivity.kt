@@ -1,8 +1,6 @@
 package com.krisna.ngeengg.Activity
 
 import android.annotation.SuppressLint
-import android.content.Intent.FLAG_ACTIVITY_PREVIOUS_IS_TOP
-import android.content.Intent.FLAG_ACTIVITY_REORDER_TO_FRONT
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -33,12 +31,12 @@ class DetailActivity : AppCompatActivity() {
         val konten = intent.getStringExtra(EXTRA_KONTEN_ID)
         apiRetrofit = ApiRetrofit().apply {
             ApiCekCart(konten)
-            ApiKontenDetail(konten, judul, harga, tambahhapus)
+            ApiKontenDetail(konten, judul, harga, tambahhapus, img_d)
             tambahhapus.setOnClickListener {
                 if (pinjam!="" && kembali!=""){
                     if (!extCart!!) {
-                        ApiCart(konten, pinjam, kembali)
-                        finish()
+//                        ApiCart(konten, pinjam, kembali)
+                        ApiCekStock(konten, pinjam, kembali, this@DetailActivity, this@DetailActivity)
                     }else {
                         ApiDeleteCart(konten)
                         finish()

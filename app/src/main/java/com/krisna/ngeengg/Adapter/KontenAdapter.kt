@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.krisna.ngeengg.R
 import com.krisna.ngeengg.Response.Data.Konten
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_konten.view.*
 import java.util.*
 import kotlin.collections.ArrayList
@@ -25,6 +26,7 @@ class KontenAdapter(private val kontenData: ArrayList<Konten>): RecyclerView.Ada
         fun bindItem(konten: Konten){
             itemView.judul.text = konten.judul
             itemView.harga.text = konten.harga.toString()
+            Picasso.get().load("http://ykyj.xyz/"+konten.photo).into(itemView.photos)
         }
     }
 

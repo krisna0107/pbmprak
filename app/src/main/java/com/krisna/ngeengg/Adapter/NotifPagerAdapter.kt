@@ -12,7 +12,7 @@ class NotifPagerAdapter (fm: FragmentManager): FragmentPagerAdapter(fm, BEHAVIOR
             0->
                 DoneFrag()
             else ->
-                return PendingFrag()
+                PendingFrag()
         }
     }
 

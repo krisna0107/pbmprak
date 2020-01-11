@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Activity.NotifActivity"></activity>
+        <activity android:name=".Activity.PembayaranActivity"></activity>
+        <activity android:name=".Activity.NotifActivity" />
         <activity android:name=".Activity.JenisActivity" />
         <activity android:name=".Activity.DetailActivity" />
         <activity android:name=".Activity.HomeActivity" />

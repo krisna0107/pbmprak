@@ -11,9 +11,5 @@ class NotifActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_notif)
-
-        val fragmentAdapterView = NotifPagerAdapter(supportFragmentManager)
-        pager_main.adapter = fragmentAdapterView
-        tabs.setupWithViewPager(pager_main)
     }
 }

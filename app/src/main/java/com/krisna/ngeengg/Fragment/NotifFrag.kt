@@ -6,27 +6,26 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.krisna.ngeengg.Api.ApiRetrofit
-
+import com.krisna.ngeengg.Adapter.NotifPagerAdapter
 import com.krisna.ngeengg.R
-import kotlinx.android.synthetic.main.fragment_done.view.*
+import kotlinx.android.synthetic.main.fragment_notif.view.*
 
 /**
  * A simple [Fragment] subclass.
  */
-class DoneFrag : Fragment() {
+class NotifFrag : Fragment() {
 
-    private lateinit var apiRetrofit: ApiRetrofit
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val rootViewNotif = inflater.inflate(R.layout.fragment_done, container, false)
-        apiRetrofit = ApiRetrofit().apply {
-            context?.let { ApiGetPesanByStat("D", rootViewNotif.rvPesan, it) }
-        }
-        return rootViewNotif
+        val rvNotif = inflater.inflate(R.layout.fragment_notif, container, false)
+        val fragmentAdapterView = NotifPagerAdapter(childFragmentManager)
+        rvNotif.pager_main.adapter = fragmentAdapterView
+        rvNotif.tabs.setupWithViewPager(rvNotif.pager_main)
+
+        return rvNotif
     }
 
 

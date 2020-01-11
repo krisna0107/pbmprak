@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_d"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:src="@color/colorAccent"
@@ -48,7 +48,7 @@
             android:id="@+id/jumlah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hallo_dunia"
+            android:text="@string/tanngal_pinjam"
             android:layout_gravity="center"/>
 
         <TableLayout
@@ -81,7 +81,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="24sp"
-                            android:text="@string/mulai"
+                            android:text="@string/pinjam"
                             android:textColor="@android:color/black"
                             android:gravity="center"/>
 
@@ -90,7 +90,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="18sp"
-                            android:text="@string/mulai"
                             android:gravity="center"/>
 
                         <TextView
@@ -98,7 +97,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="18sp"
-                            android:text="@string/mulai"
                             android:gravity="center"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
@@ -125,7 +123,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="24sp"
-                            android:text="@string/mulai"
+                            android:text="@string/kembali"
                             android:textColor="@android:color/black"
                             android:gravity="center"/>
 
@@ -134,7 +132,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="18sp"
-                            android:text="@string/mulai"
                             android:gravity="center"/>
 
                         <TextView
@@ -142,7 +139,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="18sp"
-                            android:text="@string/mulai"
                             android:gravity="center"/>
                     </LinearLayout>
 

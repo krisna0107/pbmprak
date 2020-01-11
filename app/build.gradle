@@ -14,6 +14,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "demo"]
     }
     buildTypes {
         release {
@@ -47,4 +48,9 @@ dependencies {
 
     //datemaven
     implementation "com.github.psinetron:slycalendarview:0.0.9"
+
+    //Auth0
+    implementation 'com.auth0.android:auth0:1.20.0'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
 }

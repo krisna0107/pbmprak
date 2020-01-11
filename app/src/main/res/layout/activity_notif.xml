@@ -7,25 +7,25 @@
     android:layout_height="match_parent"
     tools:context=".Activity.NotifActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
 
-        <androidx.viewpager.widget.ViewPager
-            android:id="@+id/pager_main"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+<!--        <androidx.viewpager.widget.ViewPager-->
+<!--            android:id="@+id/pager_main"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
 
-            <com.google.android.material.tabs.TabLayout
-                android:id="@+id/tabs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top" />
+<!--            <com.google.android.material.tabs.TabLayout-->
+<!--                android:id="@+id/tabs"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="top" />-->
 
-        </androidx.viewpager.widget.ViewPager>
+<!--        </androidx.viewpager.widget.ViewPager>-->
 
-    </LinearLayout>
+<!--    </LinearLayout>-->
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bar"

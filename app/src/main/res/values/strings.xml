@@ -24,4 +24,29 @@
     <string name="bayar">Bayar</string>
     <string name="tersedia">Tersedia</string>
     <string name="_0">0</string>
+    <string name="rp_0">Rp. 0</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="s_d">s/d</string>
+
+    <string name="com_auth0_client_id">kEy3OkoCDdw6E5lxv6zEyh6kEmIq8jbv</string>
+    <string name="com_auth0_domain">dev-krisn10107.auth0.com</string>
+    <string name="pemesanan_selesai">Pemesanan Selesai tunjukan kode diatas untuk proses selanjutnya di Toko</string>
+    <string name="virtual_account_bni">Virtual Account BNI</string>
+    <string name="pembayaran">Pembayaran</string>
+    <string name="select_payment">Select Payment</string>
+    <string name="pinjam">Pinjam</string>
+    <string name="kembali">Kembali</string>
+    <string name="tanngal_pinjam">Tanngal Pinjam</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
 </resources>
